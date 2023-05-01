@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Enemy
+  - Obstacle
+  - Cutscene
+  - Audiomanager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Items
+  - Background
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2949369963
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 673797083
+    locked: 0
+  - name: Items
+    uniqueID: 4283771109
+    locked: 0
+  - name: Enemies
+    uniqueID: 401462847
+    locked: 0
+  - name: Player
+    uniqueID: 275128485
+    locked: 0
+  - name: Dialogue
+    uniqueID: 3124149741
+    locked: 0
