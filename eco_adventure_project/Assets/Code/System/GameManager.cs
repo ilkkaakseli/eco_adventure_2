@@ -12,8 +12,6 @@ public class GameManager : MonoBehaviour
 
     private static int scoreLevel2;
 
-    private static int maxScoreLevel1 = 10;
-    private static int maxScoreLevel2 = 30;
     public bool levelOneComplete = false;
     public bool levelTwoComplete = false;
 
@@ -21,18 +19,8 @@ public class GameManager : MonoBehaviour
     {
         Scene currentScene = SceneManager.GetActiveScene();
         sceneName = currentScene.name;
-
-        //if (sceneName == "Level1_CoalMine")
-        //{
-            //Load Level1 score
-            //LoadScoreLevel1();
-        //}
-
-        //else if (sceneName == "Level2")
-        //{
-            //Load Level2 score
-            //LoadScoreLevel2();
-        //}
+        scoreLevel1 = 0;
+        scoreLevel2 = 0;
     }
 
     private void Update()
@@ -55,32 +43,12 @@ public class GameManager : MonoBehaviour
         if (sceneName == "Level1_CoalMine")
         {
             scoreLevel1 += points;
-
-            if (scoreLevel1 == maxScoreLevel1)
-            {
-                //Kaikki roskat on kerätty level1:sta.
-            }
         }
         else if (sceneName == "Level2")
         {
             scoreLevel2 += points;
-
-            if (scoreLevel2 == maxScoreLevel2)
-            {
-                //Kaikki roskat on kerätty level2:sta.
-            }
         }
     }
-
-    //public void LoadScoreLevel1()
-    //{
-        //scoreLevel1 = PlayerPrefs.GetInt("ScoreTrashLevel1");
-    //}
-
-    //public void LoadScoreLevel2()
-    //{
-        //scoreLevel2 = PlayerPrefs.GetInt("ScoreTrashLevel2");
-    //}
 
     public void DeleteScoreLevel1()
     {
