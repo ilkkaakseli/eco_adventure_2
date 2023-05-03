@@ -22335,6 +22335,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_Pivot.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_Pivot.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.0999146
+      objectReference: {fileID: 0}
+    - target: {fileID: 5505315150600548569, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -40.554016
+      objectReference: {fileID: 0}
     - target: {fileID: 5885445952914765083, guid: 6853d27d88f137b43b3a8aac3b48de22, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: DeleteScoreLevel1
